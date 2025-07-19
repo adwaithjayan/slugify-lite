@@ -1,0 +1,39 @@
+{
+  "name": "slugify-lite",
+  "version": "1.0.0",
+  "description": "A minimal and dependency-free utility to convert strings into URL-friendly slugs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "scripts": {
+    "dev": "tsup src/index.ts --watch",
+    "build": "tsup src/index.ts"
+  },
+  "keywords": [
+    "slugify",
+    "slug",
+    "url",
+    "lite",
+    "string",
+    "formatter",
+    "javascript",
+    "typescript"
+  ],
+  "author": "aj-boss",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adwaithjayan/slugify-lite"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}

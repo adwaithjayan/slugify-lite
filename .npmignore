@@ -1,0 +1,7 @@
+tests/
+*.test.js
+README_DRAFT.md
+*.log
+*.ts (if you're publishing compiled JS only)
+.vscode/
+node_modules/
