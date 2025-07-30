@@ -11,6 +11,9 @@
   <a href="./LICENSE">
     <img src="https://img.shields.io/npm/l/slugify-lite" />
   </a>
+  <a href='https://www.npmjs.com/package/slugify-lite'> 
+    ![npm](https://img.shields.io/npm/dt/slugify-lite?style=flat-square)
+  </a>
 </p>
 
 ---
